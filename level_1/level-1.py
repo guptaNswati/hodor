@@ -11,4 +11,3 @@ cookies = {'HoldTheDoor': '', 'holdthedoor': ''}
 cookies['holdthedoor'] = requests.get(url).cookies['HoldTheDoor']
 for i in range(4096):
     r = requests.post(url, data=payload, cookies=cookies)
-    print(r.text)
