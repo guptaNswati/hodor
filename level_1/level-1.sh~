@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {0..4096}
+do
+    curl "http://54.221.6.249/level1.php" -X POST -d "id=77&holdthedoor=Submit+Query&key=3c73cae4c11aabdc66a7464d08892f18896387c9" 
+done
